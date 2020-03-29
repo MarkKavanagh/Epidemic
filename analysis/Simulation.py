@@ -12,4 +12,4 @@ class Simulation(object):
         for entity in self.entities:
             dx = np.random.randint(-10, 11)
             dy = np.random.randint(-10, 11)
-            entity.moveByAmount(dx, dy)
+            entity.__moveByAmount__(dx, dy)

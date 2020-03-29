@@ -2,6 +2,10 @@ from Tkinter import *
 from analysis.Simulation import Simulation
 from datastructure.CircleEntity import CircleEntity
 
+#Parameters
+#maximumSickDays = 14
+#percentChanceOfInFection = 20
+#initialPercentInfected= 5
 
 class CanvasPlotter(object):
     def __init__(self):
